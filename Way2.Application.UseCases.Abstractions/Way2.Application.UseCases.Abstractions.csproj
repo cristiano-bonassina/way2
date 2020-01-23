@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Way2.Application.Models\Way2.Application.Data.csproj" />
+    <ProjectReference Include="..\Way2.Application.Data\Way2.Application.Data.csproj" />
   </ItemGroup>
 
 </Project>

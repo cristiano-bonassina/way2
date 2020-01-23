@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Way2.Application.Models\Way2.Application.Data.csproj" />
+    <ProjectReference Include="..\Way2.Application.Data\Way2.Application.Data.csproj" />
     <ProjectReference Include="..\Way2.Domain.Entities.Abstractions\Way2.Domain.Entities.Abstractions.csproj" />
     <ProjectReference Include="..\Way2.Domain.Entities\Way2.Domain.Entities.csproj" />
   </ItemGroup>
