@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject>Way2.Presentation.WebApi.Program</StartupObject>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\**" />
+    <EmbeddedResource Remove="lib\**" />
+    <None Remove="lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="3.1.0" />
+    <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.0.0-preview8.19405.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.0.1-dev-00099" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+    <PackageReference Include="System.Linq.Async" Version="4.0.0-preview.8.build.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Way2.Application.UseCases.Abstractions\Way2.Application.UseCases.Abstractions.csproj" />
+    <ProjectReference Include="..\Way2.Domain.Entities\Way2.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Way2.Infrastructure.DependencyResolution\Way2.Infrastructure.DependencyResolution.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="loaderio-fd4dde100185143b711ba46b01ea5579.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\V2\" />
+  </ItemGroup>
+
+</Project>

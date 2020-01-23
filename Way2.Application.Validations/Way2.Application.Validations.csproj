@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.5.0-preview5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Way2.Domain.Entities.Abstractions\Way2.Domain.Entities.Abstractions.csproj" />
+    <ProjectReference Include="..\Way2.Domain.Entities\Way2.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Way2.Application.Validations.Abstractions\Way2.Application.Validations.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

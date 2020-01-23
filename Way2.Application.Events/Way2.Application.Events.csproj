@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogicArt.Framework.Core.Bus" Version="3.0.4-preview" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Way2.Domain.Entities\Way2.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Way2.Application.Validations.Abstractions\Way2.Application.Validations.Abstractions.csproj" />
+    <ProjectReference Include="..\Way2.Application.Validations\Way2.Application.Validations.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Way2.Domain.Entities.Abstractions\Way2.Domain.Entities.Abstractions.csproj" />
+    <ProjectReference Include="..\Way2.Common\Way2.Common.csproj" />
+  </ItemGroup>
+
+</Project>

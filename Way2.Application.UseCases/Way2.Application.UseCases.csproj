@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Way2.Application.Repositories.Abstractions\Way2.Application.Repositories.Abstractions.csproj" />
+    <ProjectReference Include="..\Way2.Application.Services\Way2.Application.Services.csproj" />
+    <ProjectReference Include="..\Way2.Application.UseCases.Abstractions\Way2.Application.UseCases.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="System.Linq.Async" Version="4.0.0-preview.8.build.9" />
+  </ItemGroup>
+
+</Project>

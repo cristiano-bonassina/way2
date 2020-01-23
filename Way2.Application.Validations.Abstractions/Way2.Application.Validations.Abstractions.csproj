@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogicArt.Framework.Core.DependencyInjection" Version="3.0.0-preview" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Way2.Domain.Entities\Way2.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
